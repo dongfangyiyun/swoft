@@ -28,9 +28,6 @@ class IndexControllerTest extends AbstractTestCase
      */
     public function testIndex()
     {
-        echo "Hello swoft";
-        exit();
-        
         $expectedResult = [
             'name' => 'Swoft',
             'notes' => [
