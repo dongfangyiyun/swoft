@@ -33,6 +33,8 @@ class IndexController
      */
     public function index(): array
     {
+        echo "Hello Swoft";
+        die;
         $name = 'Swoft';
         $notes = [
             'New Generation of PHP Framework',
